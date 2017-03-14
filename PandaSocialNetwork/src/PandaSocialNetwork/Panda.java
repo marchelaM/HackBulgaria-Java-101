@@ -59,6 +59,11 @@ public class Panda {
 		return (name.equals(otherPanda.name) && email.equals(otherPanda.email) && gender.equals(otherPanda.gender));
 	}
 	
+	public int hashCode() {
+		
+		return getName().hashCode() + getEmail().hashCode() + getGender().hashCode();
+	}
+	
 	public String toString(){
 		
 		String result = "";
