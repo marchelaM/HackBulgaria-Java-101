@@ -1,7 +1,5 @@
 package ImplementDataStructure;
 
-import javax.xml.soap.Node;
-
 public interface MyBinarySearchTreeInterface<T extends Comparable<T>> {
 	/**
 	 * Insert a data entry to the BST
